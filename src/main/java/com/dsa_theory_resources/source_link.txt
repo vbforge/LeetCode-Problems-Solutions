@@ -1,0 +1,6 @@
+https://www.youtube.com/watch?v=f5OD9CKrZEw&list=PLGLfVvz_LVvReUrWr94U-ZMgjYTQ538nT                 = p01
+https://www.newthinktank.com/2013/02/java-algorithms/
+
+https://www.youtube.com/watch?v=JUOyKSZScW0&list=PLGLfVvz_LVvReUrWr94U-ZMgjYTQ538nT&index=2         = p02
+https://www.newthinktank.com/2013/02/java-sort-algorithm/
+

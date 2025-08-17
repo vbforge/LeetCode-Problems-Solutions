@@ -1,0 +1,92 @@
+# ========================================
+# Java + Maven + IntelliJ IDEA GitIgnore
+# ========================================
+
+# === Maven ===
+../../LeetCode-Problems-Solutions/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# Keep Maven Wrapper JAR (if present)
+!.mvn/wrapper/maven-wrapper.jar
+
+# === IntelliJ IDEA ===
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# === Java Compiled Classes ===
+*.class
+
+# === Package Files ===
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# === OS-specific files ===
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# === Logs and Temporary Files ===
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~.nib
+
+# === IDE - VS Code (optional) ===
+.vscode/
+*.code-workspace
+
+# === IDE - Eclipse (optional) ===
+.metadata
+.project
+.classpath
+.settings/
+bin/
+
+# === Test & Coverage Reports ===
+target/site/
+target/surefire-reports/
+target/failsafe-reports/
+jacoco.exec
+*.exec
+coverage/
+test-output/
+
+# === Environment Variables ===
+.env
+.env.local
+.env.*.local
+
+# === Application Specific ===
+# Add your application-specific ignores here
+# config/local.properties
+# secrets/

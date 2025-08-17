@@ -1,0 +1,7 @@
+addWord bad
+addWord dad
+addWord mad
+search pad
+search bad
+search .ad
+search b..

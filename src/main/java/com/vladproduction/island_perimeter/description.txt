@@ -1,0 +1,25 @@
+Explanation:
+
+(*)islandPerimeter Method:
+
+Takes a 2D integer array grid representing the map.
+Initializes perimeter to 0.
+Iterates through each cell in the grid using nested loops.
+If the current cell is land (grid[i][j] == 1), it calls cellPerimeter to calculate the perimeter for that cell and adds
+it to the total perimeter.
+
+(*)cellPerimeter Method:
+
+Takes the grid, current row (row), column (col), total rows (rows), and total columns (cols) as arguments.
+Initializes perimeter to 0.
+Checks each neighbor (top, bottom, left, right) of the current cell.
+If a neighbor is water (grid[row - 1][col] == 0 for top), it means that side contributes to the perimeter and increments perimeter.
+Returns the calculated perimeter for the current land cell.
+
+(*)How it Works:
+
+The code iterates through each cell in the grid.
+If a cell is land, it checks its adjacent cells (up, down, left, right).
+If an adjacent cell is water, it means that side borders the water and contributes to the island's perimeter.
+The cellPerimeter function calculates the total number of sides bordering water for a land cell.
+Finally, the islandPerimeter method accumulates the perimeter for each land cell, giving the total perimeter of the island.
